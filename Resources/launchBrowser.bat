@@ -1,0 +1,1 @@
+start C:\Users\Shibu\Desktop\launchBrowser.vbs %~1

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" parallel="methods" thread-count="1" preserve-order="true">
+<!-- <suite name="Suite" verbose="10" parallel="classes" thread-count="2" preserve-order="true"> -->
+<!-- <suite name="Suite" verbose="10" parallel="tests" thread-count="2" preserve-order="true"> -->
+
+<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <test name="chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.demo.SampleTest.SampleTestCase">
+				<methods>
+					<include name="vmwareSetUp" />
+					<include name="demoTest1" />
+					<include name="demoTest2" /> 
+					<include name="demoTest3" />
+					<include name="skip"/>
+					<include name="demoTest4" />
+					<include name="demoTest5" />
+					<include name="demoTest6" />
+					<include name="skip1"/>
+				</methods>
+			</class>
+			
+			<class name="com.demo.SampleTest.SampleTestCase2">
+				<methods>
+					<include name="demoTest2_1"/>
+					<include name="demoTest2_2" />
+					<include name="demoTest2_3" />
+					<include name="skip2_4"/>
+					
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.demo.SampleTest.SampleTestCase">
+				<methods>
+					<include name="demoTest1" />
+					<include name="demoTest2" /> 
+					<include name="demoTest3" />
+					<include name="skip"/>
+					<include name="demoTest4" />
+					<include name="demoTest5" />
+					<include name="demoTest6" />
+					<include name="skip1"/>
+				</methods>
+			</class>
+			
+			<class name="com.demo.SampleTest.SampleTestCase2">
+				<methods>
+					<include name="demoTest2_1"/>
+					<include name="demoTest2_2" />
+					<include name="demoTest2_3" />
+					<include name="skip2_4"/>
+					
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+</suite> 
+ 
